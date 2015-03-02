@@ -1,0 +1,12 @@
+<Alloy>
+  <Window class="container"  title="Tab 1">
+    <Widget id="pagingSegundo1" src="de.manumaticx.pagingcontrol" onSelect="tabHandler" />
+    <ScrollableView id="scrollableViewSegundo1">
+      <View backgroundColor="green" title="green"/>
+      <View backgroundColor="black" title="black"/>
+      <View backgroundColor="blue" title="blue"/>
+      <View backgroundColor="#cfa" title="#cfa"/>
+      <View backgroundColor="#afc" title="#afc"/>
+    </ScrollableView>
+    </Window>
+</Alloy>

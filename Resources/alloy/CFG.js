@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"de.manumaticx.pagingcontrol":"0.4.1"}};

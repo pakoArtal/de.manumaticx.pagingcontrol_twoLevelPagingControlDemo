@@ -1,0 +1,5 @@
+<Alloy>
+  <Window class="container" title="Tab 3">
+    <View title="magenta" backgroundColor="magenta" />
+    </Window>
+</Alloy>

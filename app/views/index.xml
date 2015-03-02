@@ -1,0 +1,12 @@
+<Alloy>
+  <Window class="container" >
+    <Widget id="paging" src="de.manumaticx.pagingcontrol" onSelect="tabHandler" />
+    <ScrollableView id="scrollableView">
+      <Require src="ventana1" id="ventana1"/>
+      <Require src="ventana2" id="ventana2"/>
+      <Require src="ventana3" id="ventana3"/>
+      <Require src="ventana4" id="ventana4"/>
+      <Require src="ventana5" id="ventana5"/>
+    </ScrollableView>
+  </Window>
+</Alloy>
