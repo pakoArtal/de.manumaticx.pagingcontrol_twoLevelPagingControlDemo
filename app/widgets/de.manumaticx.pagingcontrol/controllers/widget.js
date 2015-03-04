@@ -136,11 +136,15 @@ function init(){
  * Callback for scroll event
  */
 function onScroll(e){
+    //paco 
+    //quiero evitar que se propague el evento pero parece que no va
     e.cancelBubble = true;
-    // update the indicator position
-    $.indicator.setLeft(e.currentPageAsFloat * $.iWidth);
-
-    args.tabs && updateOffset(e.currentPageAsFloat);
+    // no hacemos nada si el  origen del evento scroll es el ScrollView principal que se llama pagingcontrol
+    if (e.source.id != 'pagingcontrol'){
+    	// update the indicator position
+    	$.indicator.setLeft(e.currentPageAsFloat * $.iWidth);
+    	args.tabs && updateOffset(e.currentPageAsFloat);
+    }
 }
 
 /**
